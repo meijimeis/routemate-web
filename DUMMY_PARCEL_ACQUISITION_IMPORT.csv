@@ -1,0 +1,8 @@
+tracking_code,recipient_name,address,contact_details,weight_kg,region,priority,payment_type,latitude,longitude,cluster_name
+RMCSV-2026-0001,Juan Dela Cruz,"Makati Avenue, Makati City, Metro Manila",09171234567,1.2,Metro Manila,high,COD,14.5547,121.0244,
+RMCSV-2026-0002,Maria Santos,"Taft Avenue, Manila, Metro Manila",09181234567,0.8,Metro Manila,normal,Prepaid,14.5794,120.9842,
+RMCSV-2026-0101,Carlos Reyes,"Lahug, Cebu City, Cebu",09221234567,2.4,Cebu,high,COD,10.3327,123.9062,CEBU-NORTH-01
+RMCSV-2026-0102,Ana Lopez,"Banilad, Cebu City, Cebu",09351234567,1.1,Cebu,normal,Prepaid,10.3492,123.9134,CEBU-NORTH-01
+RMCSV-2026-0201,Liza Ramos,"Matina, Davao City, Davao del Sur",09991234567,3.0,Davao,high,COD,7.0731,125.6128,DAVAO-CENTER-02
+RMCSV-2026-0202,Paolo Lim,"Ecoland, Davao City, Davao del Sur",09551234567,1.7,Davao,normal,Prepaid,7.0667,125.6000,DAVAO-CENTER-02
+RMCSV-2026-0203,Rina Bautista,"Bajada, Davao City, Davao del Sur",09471234567,2.2,Davao,normal,COD,7.0870,125.6112,DAVAO-CENTER-02

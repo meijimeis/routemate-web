@@ -1,0 +1,26 @@
+@import "leaflet/dist/leaflet.css";
+@import "tailwindcss";
+
+
+:root {
+  --background: #ececf3;
+  --foreground: #151726;
+  --subtle-border: #e5e7eb;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", var(--font-geist-sans), Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-color: var(--subtle-border);
+}
