@@ -1137,13 +1137,12 @@ function DashboardContent() {
         }
 
         if (sanitizedHistory.length >= 2) {
-          const firstTime = sanitizedHistory[0].timestampMs ?? null;
-          const lastTime = sanitizedHistory[sanitizedHistory.length - 1].timestampMs ?? null;
-
-          if (firstTime !== null && lastTime !== null && Number.isFinite(firstTime) && Number.isFinite(lastTime) && lastTime >= firstTime) {
-              setRouteRunHours((lastTime - firstTime) / (1000 * 60 * 60));
+          const firstTime = sanitizedHistory[0].timestampMs;
+          const lastTime = sanitizedHistory[sanitizedHistory.length - 1].timestampMs;
+          if (Number.isFinite(firstTime) && Number.isFinite(lastTime) && lastTime >= firstTime) {
+            setRouteRunHours((lastTime - firstTime) / (1000 * 60 * 60));
           } else {
-              setRouteRunHours(null);
+            setRouteRunHours(null);
           }
         } else {
           setRouteRunHours(null);
