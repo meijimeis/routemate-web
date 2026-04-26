@@ -57,7 +57,7 @@ function NotificationsContent() {
             <GeofenceCreatePanel />
           </div>
 
-          <div className="flex-1 min-h-[400px] overflow-hidden rounded-xl border border-gray-100 shadow-sm bg-white">
+          <div className="flex-1 overflow-hidden rounded-xl border border-gray-100 shadow-sm bg-white">
             <GeofenceMap
               zones={zones}
               parcelGeofences={parcelGeofences}
