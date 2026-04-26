@@ -263,9 +263,8 @@ export default function GeofenceCreatePanel() {
         </div>
       ) : null}
 
-         {isOpen ? (
-      <div className="mt-3 flex-1 min-h-0 overflow-y-auto">
-        <form onSubmit={onSubmit} className="grid grid-cols-1 gap-3 md:grid-cols-2">
+      {isOpen ? (
+        <form onSubmit={onSubmit} className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
           <label className="text-xs text-gray-700">
             Zone Name
             <input
@@ -502,7 +501,6 @@ export default function GeofenceCreatePanel() {
             </button>
           </div>
         </form>
-        </div>
       ) : null}
     </div>
   );

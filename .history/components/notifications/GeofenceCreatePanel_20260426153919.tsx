@@ -237,7 +237,7 @@ export default function GeofenceCreatePanel() {
 
   return (
     <div className="rounded-xl border border-gray-100 bg-white p-3 shadow-sm flex flex-col h-full max-h-[500px]">
-      <div className="flex items-center justify-between gap-2 shrink-0" >
+      <div className="flex items-center justify-between gap-2">
         <div>
           <p className="text-sm font-semibold text-gray-900">Supervisor Geofence Controls</p>
           <p className="text-xs text-gray-500">Create organization geofences directly from the dashboard.</p>
@@ -263,9 +263,8 @@ export default function GeofenceCreatePanel() {
         </div>
       ) : null}
 
-         {isOpen ? (
-      <div className="mt-3 flex-1 min-h-0 overflow-y-auto">
-        <form onSubmit={onSubmit} className="grid grid-cols-1 gap-3 md:grid-cols-2">
+      {isOpen ? (
+        <form onSubmit={onSubmit} className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
           <label className="text-xs text-gray-700">
             Zone Name
             <input
@@ -502,7 +501,6 @@ export default function GeofenceCreatePanel() {
             </button>
           </div>
         </form>
-        </div>
       ) : null}
     </div>
   );

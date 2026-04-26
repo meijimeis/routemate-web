@@ -502,7 +502,6 @@ export default function GeofenceCreatePanel() {
             </button>
           </div>
         </form>
-        </div>
       ) : null}
     </div>
   );
